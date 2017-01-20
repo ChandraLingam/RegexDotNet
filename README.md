@@ -28,6 +28,6 @@ Split - Split text
 
 
 ## Examples
-Contains Standalone Files (can be embedded as Unit Test)  
+Standalone Files on how to apply Regex for parsing (can be embedded as Unit Test)  
 UsageExample.cs - Shows different capabilities of .NET regex engine and features  
 RobocopLogExample.cs - Shows how to parse robocopy log files. Uses rocopylog.txt and rocopylog_invalid_source.txt files for demonstration.  
