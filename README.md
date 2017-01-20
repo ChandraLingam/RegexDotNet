@@ -15,9 +15,10 @@ License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/
 
 ## Usage
 Pattern - Specify pattern here  
-Text - Text in which to look for Pattern 
-Result - Output of the operation
-Replacement Pattern - Specify replacement text or pattern (to be used with Replace button) 
+Text - Text in which to look for Pattern  
+Result - Output of the operation  
+Replacement Pattern - Specify replacement text or pattern (to be used with Replace button)  
+
 
 ## Actions
 Match - Find the first match 
