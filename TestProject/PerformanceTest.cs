@@ -41,6 +41,7 @@ namespace TestProject
         [TestMethod]
         public void Static_Method_NoCompile_Repetition_Test()
         {
+            // New Test
             string pattern = @"(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
             string text = @"Timestamp=20160502";
             int failCount = 0;
