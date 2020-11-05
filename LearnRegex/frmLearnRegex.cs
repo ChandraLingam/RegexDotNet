@@ -112,7 +112,12 @@ namespace RegExTutorial
 
             try
             {
-                txtResult.Text = Regex.Replace(txtData.Text, txtPattern.Text, txtReplacementPattern.Text, _regexOptions);
+                string newText = Regex.Replace(txtData.Text, txtPattern.Text, txtReplacementPattern.Text, _regexOptions);
+                //(?<!\r)\n
+                // no carriage return infront of new line, add it.  windows requires
+                // carriage return and newline \r\n to display new line
+                newText = Regex.Replace(newText, @"(?<!\r)\n", Environment.NewLine);
+                txtResult.Text = newText;
             }
             catch (Exception ex)
             {

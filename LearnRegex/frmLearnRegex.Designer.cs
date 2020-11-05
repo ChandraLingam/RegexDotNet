@@ -70,7 +70,7 @@
             this.btnMatch.Margin = new System.Windows.Forms.Padding(4);
             this.btnMatch.Name = "btnMatch";
             this.btnMatch.Size = new System.Drawing.Size(112, 40);
-            this.btnMatch.TabIndex = 3;
+            this.btnMatch.TabIndex = 4;
             this.btnMatch.Text = "Match";
             this.btnMatch.UseVisualStyleBackColor = true;
             this.btnMatch.Click += new System.EventHandler(this.btnMatch_Click);
@@ -84,7 +84,7 @@
             this.txtData.Name = "txtData";
             this.txtData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtData.Size = new System.Drawing.Size(873, 200);
-            this.txtData.TabIndex = 2;
+            this.txtData.TabIndex = 3;
             // 
             // txtResult
             // 
@@ -95,7 +95,7 @@
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtResult.Size = new System.Drawing.Size(873, 200);
-            this.txtResult.TabIndex = 5;
+            this.txtResult.TabIndex = 8;
             // 
             // label2
             // 
@@ -126,7 +126,7 @@
             this.btnNextMatch.Margin = new System.Windows.Forms.Padding(4);
             this.btnNextMatch.Name = "btnNextMatch";
             this.btnNextMatch.Size = new System.Drawing.Size(114, 40);
-            this.btnNextMatch.TabIndex = 4;
+            this.btnNextMatch.TabIndex = 5;
             this.btnNextMatch.Text = "Next Match";
             this.btnNextMatch.UseVisualStyleBackColor = true;
             this.btnNextMatch.Click += new System.EventHandler(this.btnNextMatch_Click);
@@ -138,7 +138,7 @@
             this.txtReplacementPattern.Margin = new System.Windows.Forms.Padding(4);
             this.txtReplacementPattern.Name = "txtReplacementPattern";
             this.txtReplacementPattern.Size = new System.Drawing.Size(873, 35);
-            this.txtReplacementPattern.TabIndex = 5;
+            this.txtReplacementPattern.TabIndex = 2;
             this.txtReplacementPattern.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
@@ -159,7 +159,7 @@
             this.btnReplace.Margin = new System.Windows.Forms.Padding(4);
             this.btnReplace.Name = "btnReplace";
             this.btnReplace.Size = new System.Drawing.Size(112, 40);
-            this.btnReplace.TabIndex = 3;
+            this.btnReplace.TabIndex = 6;
             this.btnReplace.Text = "Replace";
             this.btnReplace.UseVisualStyleBackColor = true;
             this.btnReplace.Click += new System.EventHandler(this.btnReplace_Click);
@@ -171,7 +171,7 @@
             this.btnSplit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSplit.Name = "btnSplit";
             this.btnSplit.Size = new System.Drawing.Size(112, 40);
-            this.btnSplit.TabIndex = 3;
+            this.btnSplit.TabIndex = 7;
             this.btnSplit.Text = "Split";
             this.btnSplit.UseVisualStyleBackColor = true;
             this.btnSplit.Click += new System.EventHandler(this.btnSplit_Click);
