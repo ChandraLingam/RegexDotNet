@@ -60,6 +60,7 @@
     <Compile Include="PerformanceTest.cs" />
     <Compile Include="RobocopyLogExample.cs" />
     <Compile Include="SensorDataExample.cs" />
+    <Compile Include="RegularExpressionOperations.cs" />
     <Compile Include="UsageExample.cs" />
   </ItemGroup>
   <ItemGroup>
