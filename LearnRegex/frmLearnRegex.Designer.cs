@@ -57,11 +57,11 @@
             // 
             // txtPattern
             // 
-            this.txtPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPattern.Location = new System.Drawing.Point(259, 22);
             this.txtPattern.Margin = new System.Windows.Forms.Padding(4);
             this.txtPattern.Name = "txtPattern";
-            this.txtPattern.Size = new System.Drawing.Size(1143, 35);
+            this.txtPattern.Size = new System.Drawing.Size(1143, 39);
             this.txtPattern.TabIndex = 1;
             // 
             // btnMatch
@@ -79,7 +79,7 @@
             // 
             // txtData
             // 
-            this.txtData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtData.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtData.Location = new System.Drawing.Point(259, 129);
             this.txtData.Margin = new System.Windows.Forms.Padding(4);
             this.txtData.Multiline = true;
@@ -90,7 +90,7 @@
             // 
             // txtResult
             // 
-            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResult.Location = new System.Drawing.Point(259, 469);
             this.txtResult.Margin = new System.Windows.Forms.Padding(4);
             this.txtResult.Multiline = true;
@@ -136,11 +136,11 @@
             // 
             // txtReplacementPattern
             // 
-            this.txtReplacementPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReplacementPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtReplacementPattern.Location = new System.Drawing.Point(259, 74);
             this.txtReplacementPattern.Margin = new System.Windows.Forms.Padding(4);
             this.txtReplacementPattern.Name = "txtReplacementPattern";
-            this.txtReplacementPattern.Size = new System.Drawing.Size(1143, 35);
+            this.txtReplacementPattern.Size = new System.Drawing.Size(1143, 39);
             this.txtReplacementPattern.TabIndex = 2;
             this.txtReplacementPattern.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
