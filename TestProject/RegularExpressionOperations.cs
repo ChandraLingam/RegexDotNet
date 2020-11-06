@@ -31,7 +31,6 @@ namespace TestProject
             Console.WriteLine();
         }
 
-
         [TestMethod]
         public void IsMatch()
         {

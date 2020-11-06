@@ -59,6 +59,7 @@
     <Compile Include="PerformanceInstanceMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PerformanceStaticMethod.cs" />
+    <Compile Include="RegularExpressionOperationsShell.cs" />
     <Compile Include="RobocopySolutionShell.cs" />
     <Compile Include="RobocopySolution.cs" />
     <Compile Include="SensorDataExample.cs" />
