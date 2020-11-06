@@ -46,6 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 25);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -57,16 +58,17 @@
             // txtPattern
             // 
             this.txtPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPattern.Location = new System.Drawing.Point(182, 25);
+            this.txtPattern.Location = new System.Drawing.Point(259, 22);
             this.txtPattern.Margin = new System.Windows.Forms.Padding(4);
             this.txtPattern.Name = "txtPattern";
-            this.txtPattern.Size = new System.Drawing.Size(873, 35);
+            this.txtPattern.Size = new System.Drawing.Size(1143, 35);
             this.txtPattern.TabIndex = 1;
             // 
             // btnMatch
             // 
+            this.btnMatch.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnMatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMatch.Location = new System.Drawing.Point(180, 331);
+            this.btnMatch.Location = new System.Drawing.Point(295, 397);
             this.btnMatch.Margin = new System.Windows.Forms.Padding(4);
             this.btnMatch.Name = "btnMatch";
             this.btnMatch.Size = new System.Drawing.Size(112, 40);
@@ -78,30 +80,30 @@
             // txtData
             // 
             this.txtData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtData.Location = new System.Drawing.Point(182, 122);
+            this.txtData.Location = new System.Drawing.Point(259, 129);
             this.txtData.Margin = new System.Windows.Forms.Padding(4);
             this.txtData.Multiline = true;
             this.txtData.Name = "txtData";
             this.txtData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtData.Size = new System.Drawing.Size(873, 200);
+            this.txtData.Size = new System.Drawing.Size(1143, 248);
             this.txtData.TabIndex = 3;
             // 
             // txtResult
             // 
             this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResult.Location = new System.Drawing.Point(181, 389);
+            this.txtResult.Location = new System.Drawing.Point(259, 469);
             this.txtResult.Margin = new System.Windows.Forms.Padding(4);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtResult.Size = new System.Drawing.Size(873, 200);
+            this.txtResult.Size = new System.Drawing.Size(1143, 248);
             this.txtResult.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 456);
+            this.label2.Location = new System.Drawing.Point(13, 520);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 29);
@@ -111,8 +113,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 210);
+            this.label3.Location = new System.Drawing.Point(13, 240);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 29);
@@ -122,7 +125,7 @@
             // btnNextMatch
             // 
             this.btnNextMatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNextMatch.Location = new System.Drawing.Point(300, 331);
+            this.btnNextMatch.Location = new System.Drawing.Point(415, 397);
             this.btnNextMatch.Margin = new System.Windows.Forms.Padding(4);
             this.btnNextMatch.Name = "btnNextMatch";
             this.btnNextMatch.Size = new System.Drawing.Size(114, 40);
@@ -134,18 +137,19 @@
             // txtReplacementPattern
             // 
             this.txtReplacementPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtReplacementPattern.Location = new System.Drawing.Point(182, 58);
+            this.txtReplacementPattern.Location = new System.Drawing.Point(259, 74);
             this.txtReplacementPattern.Margin = new System.Windows.Forms.Padding(4);
             this.txtReplacementPattern.Name = "txtReplacementPattern";
-            this.txtReplacementPattern.Size = new System.Drawing.Size(873, 35);
+            this.txtReplacementPattern.Size = new System.Drawing.Size(1143, 35);
             this.txtReplacementPattern.TabIndex = 2;
             this.txtReplacementPattern.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 58);
+            this.label4.Location = new System.Drawing.Point(13, 74);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(238, 29);
@@ -154,8 +158,9 @@
             // 
             // btnReplace
             // 
+            this.btnReplace.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnReplace.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReplace.Location = new System.Drawing.Point(422, 331);
+            this.btnReplace.Location = new System.Drawing.Point(537, 397);
             this.btnReplace.Margin = new System.Windows.Forms.Padding(4);
             this.btnReplace.Name = "btnReplace";
             this.btnReplace.Size = new System.Drawing.Size(112, 40);
@@ -166,8 +171,9 @@
             // 
             // btnSplit
             // 
+            this.btnSplit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnSplit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSplit.Location = new System.Drawing.Point(542, 331);
+            this.btnSplit.Location = new System.Drawing.Point(657, 397);
             this.btnSplit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSplit.Name = "btnSplit";
             this.btnSplit.Size = new System.Drawing.Size(112, 40);
@@ -180,7 +186,7 @@
             // 
             this.chkRightToLeft.AutoSize = true;
             this.chkRightToLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRightToLeft.Location = new System.Drawing.Point(809, 338);
+            this.chkRightToLeft.Location = new System.Drawing.Point(1157, 402);
             this.chkRightToLeft.Name = "chkRightToLeft";
             this.chkRightToLeft.Size = new System.Drawing.Size(245, 33);
             this.chkRightToLeft.TabIndex = 10;
@@ -192,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 602);
+            this.ClientSize = new System.Drawing.Size(1435, 730);
             this.Controls.Add(this.btnSplit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnReplace);
