@@ -62,7 +62,9 @@
     <Compile Include="RegularExpressionOperationsShell.cs" />
     <Compile Include="RobocopySolutionShell.cs" />
     <Compile Include="RobocopySolution.cs" />
-    <Compile Include="SensorDataExample.cs" />
+    <Compile Include="SensorDataSolutionShell.cs" />
+    <Compile Include="SensorDataSolution.cs" />
+    <Compile Include="retired\SensorDataExample.cs" />
     <Compile Include="RegularExpressionOperations.cs" />
     <Compile Include="UsageExample.cs" />
   </ItemGroup>

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TestProject
+namespace TestProjectExample
 {
     public class SensorData
     {
@@ -22,8 +22,8 @@ namespace TestProject
             Console.WriteLine("Started...");
             Console.WriteLine(System.Environment.CurrentDirectory);
 
-            string file = @"..\..\..\Data\SensorData\sensordata_small.txt";
-            string jsonOutputFile = @"..\..\..\Data\SensorData\sensordata_small.json";
+            string file = @"C:\Git\RegexDotNet\Data\SensorData\sensordata_365.txt";
+            string jsonOutputFile = @"C:\Git\RegexDotNet\Data\SensorData\sensordata_365.txt.json";
 
             string PATTERN_HEADER = @"^(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
             string PATTERN_TEMP_HUM = @"(?<temperature>\d{4}|NNNN)(?<humditiy>\d{3}|NNN)";

@@ -5,7 +5,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 
-// Difference namespace for hands-on-labs to prevent class naming conflict
+// Different namespace for hands-on-labs to prevent class naming conflict
 namespace TestProjectShell
 {
 
