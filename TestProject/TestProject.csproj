@@ -55,7 +55,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="HealthCareDataExample.cs" />
+    <Compile Include="HealthCareSolutionShell.cs" />
+    <Compile Include="HealthCareSolution.cs" />
     <Compile Include="PerformanceInstanceMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PerformanceStaticMethod.cs" />
