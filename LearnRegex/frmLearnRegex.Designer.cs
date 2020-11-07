@@ -142,7 +142,6 @@
             this.txtReplacementPattern.Name = "txtReplacementPattern";
             this.txtReplacementPattern.Size = new System.Drawing.Size(1143, 39);
             this.txtReplacementPattern.TabIndex = 2;
-            this.txtReplacementPattern.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 

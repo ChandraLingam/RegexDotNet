@@ -29,11 +29,12 @@ namespace RegExTutorial
 
         private void btnMatch_Click(object sender, EventArgs e)
         {
+            txtResult.Text = "Value,Index,Length,ElapsedTime(s)" + Environment.NewLine;
+
             try
             {
                 _regex = null;
                 _match = null;
-                txtResult.Text = string.Empty;
                 /******************
                 //
                 // Note: Use Static Regex methods as much as possible
@@ -78,17 +79,16 @@ namespace RegExTutorial
                 txtData.Focus();
                 txtData.Select(_match.Index, _match.Length);
 
-                StringBuilder sb = new StringBuilder();
-                sb.AppendFormat("Match Found: {0}, Substring: {1}, Index: {2}, Length: {3}, Elapsed Time (ms): {4}{5}",
-                 _match.Success, _match.Value, _match.Index, _match.Length, elapsed.TotalMilliseconds, Environment.NewLine);
+                StringBuilder sb = new StringBuilder();                
+                sb.Append($"{_match.Value},{_match.Index},{_match.Length}, {elapsed.TotalSeconds:0.##}");
+                sb.AppendLine();
 
                 // Group 0 is default group that matches the complete expression
                 if (_match.Groups.Count > 1)
                 {
                     for (int i = 0; i < _match.Groups.Count; i++)
                     {
-                        sb.AppendFormat("  Group Index:{0}, Name:{1}, Value:{2}", i, _regex.GroupNameFromNumber(i), _match.Groups[i].Value);
-
+                        sb.Append($"  Group Index:{i}, Name:{_regex.GroupNameFromNumber(i)}, Value:{_match.Groups[i].Value}");
                         sb.AppendLine();
                     }
                 }                  
@@ -97,13 +97,8 @@ namespace RegExTutorial
             }      
             else
             {
-                txtResult.Text += string.Format("END. Elapsed Time (ms): {0}{1}", elapsed.TotalMilliseconds, Environment.NewLine);
+                txtResult.Text += string.Format($"End. Elapsed Time: {elapsed.TotalSeconds:0.##}{Environment.NewLine}");
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnReplace_Click(object sender, EventArgs e)
