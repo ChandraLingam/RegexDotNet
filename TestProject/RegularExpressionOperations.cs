@@ -275,8 +275,10 @@ namespace TestProject
         [TestMethod]
         public void Replace()
         {
+
             string pattern = @"(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
 
+            // Change date format 20200920 => 09-20-2020
             string text = "Start Date: 20200920, End Date: 20210920";
 
             string replacementPattern = @"${month}-${day}-${year}";
@@ -311,6 +313,7 @@ namespace TestProject
         {
             string pattern = @"(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
 
+            // Change date format 20200920 => Sep-20-2020
             string text = "Start Date: 20200920, End Date: 20210920";
 
             string newText = Regex.Replace(text, pattern, new MatchEvaluator(FormatDate));
@@ -331,6 +334,8 @@ namespace TestProject
         [TestMethod]
         public void SplitExample()
         {
+            // Split text by regex pattern
+
             string pattern = @";";
             string text = "a-c;x;y;1";
 
@@ -342,8 +347,9 @@ namespace TestProject
             Console.WriteLine();
 
             Console.WriteLine("Split Text:");
-            foreach (string s in splitText)
-                Console.WriteLine($"  {s}");
+
+            // Print the values
+            Console.WriteLine(string.Join(Environment.NewLine, splitText));
         }
     }
 }

@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text.RegularExpressions;
 
-namespace TestProject
+namespace Retired
 {
     [TestClass]
     public class UsageExample
