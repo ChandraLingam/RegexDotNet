@@ -67,7 +67,7 @@
     <Compile Include="SensorDataSolution.cs" />
     <Compile Include="retired\SensorDataExample.cs" />
     <Compile Include="RegularExpressionOperations.cs" />
-    <Compile Include="UsageExample.cs" />
+    <Compile Include="retired\UsageExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
