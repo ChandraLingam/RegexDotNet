@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TestProjectExample
+namespace Retired
 {
     public class SensorData
     {
