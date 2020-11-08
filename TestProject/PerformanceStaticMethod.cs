@@ -21,7 +21,10 @@ namespace TestProject
 
             try
             {
-                Match match = Regex.Match(text, pattern, RegexOptions.None, new TimeSpan(0, 0, 5));
+                Match match = Regex.Match(text, 
+                                          pattern, 
+                                          RegexOptions.None, 
+                                          new TimeSpan(0, 0, 5));
 
                 Console.WriteLine("Pattern: {0}", pattern);
                 Console.WriteLine("Text: {0}", text);
@@ -49,6 +52,7 @@ namespace TestProject
             string text = @"Timestamp=20160502";
             int failCount = 0;
             int passCount = 0;
+
             for (int i = 0; i < 10000; i++)
             {
                 var match = Regex.Match(text, pattern);
@@ -73,6 +77,7 @@ namespace TestProject
             string text = @"Timestamp=20160502";
             int failCount = 0;
             int passCount = 0;
+
             for (int i = 0; i < 10000; i++)
             {
                 var match = Regex.Match(text, pattern, RegexOptions.Compiled);

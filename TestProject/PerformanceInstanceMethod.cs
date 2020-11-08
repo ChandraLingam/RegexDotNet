@@ -180,8 +180,6 @@ namespace TestProject
             /*  
              *  Vary the number of patterns. 
              *  
-             *  Default Cache Size is 15 patterns
-             *  
              *  Test 1: 10 Patterns
              *  Test 2: 15 Patterns
              *  Test 3: 20 Patterns
