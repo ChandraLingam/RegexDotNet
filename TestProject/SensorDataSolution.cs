@@ -22,10 +22,13 @@ namespace TestProject
     public class SensorDataSolution
     {
         // TODO: Update path to point to your directory
-        string _fileDirectory = @"C:\Git\RegexDotNet\Data\SensorData";        
+        string directory = @"C:\Git\RegexDotNet\Data\SensorData";
 
-        static string PATTERN_HEADER = @"^(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
-        static string PATTERN_DATA = @"(?<temperature>\d{4}|NNNN)(?<humidity>\d{3}|NNN)";
+        // Extract date value from each line
+        const string PATTERN_HEADER = @"^(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})";
+
+        // Data pattern is used for iterating available temperature and humidity pairs
+        const string PATTERN_DATA = @"(?i)(?<temperature>\d{4}|NNNN)(?<humidity>\d{3}|NNN)";
 
         Regex regexSensorValue = new Regex(PATTERN_DATA, RegexOptions.Compiled);
 
@@ -41,6 +44,7 @@ namespace TestProject
 
                 while (!rdr.EndOfStream)
                 {
+                    // One row contains a day worth of data
                     SensorData sensorData = new SensorData();
 
                     string currentLine = rdr.ReadLine();
@@ -87,7 +91,7 @@ namespace TestProject
         [TestMethod]
         public void ProcessFile()
         {
-            string fileName = _fileDirectory + @"\" + "sensordata_small.txt";
+            string fileName = directory + @"\" + "sensordata_365.txt";
 
             ParseSensorData(fileName);
         }

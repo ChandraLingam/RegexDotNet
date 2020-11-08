@@ -21,7 +21,7 @@ namespace TestProjectShell
     public class SensorDataSolution
     {
         // TODO: Update path to point to your directory
-        string _fileDirectory = @"C:\Git\RegexDotNet\Data\SensorData";        
+        string directory = @"C:\Git\RegexDotNet\Data\SensorData";        
         
         
         public void ParseSensorData(string fileName)
@@ -33,7 +33,7 @@ namespace TestProjectShell
         [TestMethod]
         public void ProcessFile()
         {
-            string fileName = _fileDirectory + @"\" + "sensordata_small.txt";
+            string fileName = directory + @"\" + "sensordata_small.txt";
 
             ParseSensorData(fileName);
         }
