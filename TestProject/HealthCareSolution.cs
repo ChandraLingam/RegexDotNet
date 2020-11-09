@@ -40,6 +40,7 @@ namespace TestProject
                     if (!row.Groups["arow"].Success)
                     {
                         // skip empty rows
+                        row = row.NextMatch();
                         continue;
                     }
 
