@@ -10,9 +10,10 @@ namespace TestProjectShell
     public class HealthCareSolution
     {
         // TODO: Update path to point to your directory
-        string _fileDirectory = @"C:\Git\RegexDotNet\Data\HealthData";
+        string directory = @"C:\Git\RegexDotNet\Data\HealthData";
+        string[] fileList = { "problems.html", "labresults.html" };
 
-        public void ParseHealthDataTable(string fileName)
+        public void ProcessHealthCareData(string fileName)
         {
             // TODO:  Implement parsing Logic
         }
@@ -20,11 +21,10 @@ namespace TestProjectShell
         [TestMethod]
         public void ProcessFiles()
         {
-            string[] fileList = {"problems.html", "labresults.html"};
             foreach (string file in fileList)
             {
                 Console.WriteLine($"****{file}");
-                ParseHealthDataTable(_fileDirectory + @"\" + file);
+                ProcessHealthCareData(directory + @"\" + file);
             }
         }
     }
