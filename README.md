@@ -1,4 +1,4 @@
-# Learning Regular Expression with .NET
+# C# .NET Regular Expression (regex) Projects and Solutions
 ## To enroll:
 https://www.udemy.com/course/learning-regular-expression-with-net/?referralCode=12BCE3C5C19156C78828
 
