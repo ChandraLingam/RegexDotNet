@@ -1,0 +1,15 @@
+Objective: Remove embedded commas
+
+Question:
+https://www.udemy.com/course/learning-regular-expression-with-net/learn/#questions/17551850/
+
+pattern: 
+    (?m)("[^",]+),([^"]+")
+
+replacement pattern:
+    $1$2
+
+Text:
+"J7, L 00","N","527950234"
+"K7, L 00","N","527950234"
+"L7, L 00","N","527950234"    

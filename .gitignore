@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Data/RobocopyLog/rocopylog.txt.json
+/Data/RobocopyLog/rocopylog_invalid_source.txt.json
