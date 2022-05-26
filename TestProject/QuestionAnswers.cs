@@ -8,9 +8,29 @@ namespace TestProject
     public class QuestionAnswers
     {
         /*
-         * Objective: Remove Embedded Comma
+         * Objective: Remove Embedded Comma Inside Double Quotes
          * Question and pattern by Minhchau:
             https://www.udemy.com/course/learning-regular-expression-with-net/learn/#questions/17551850/
+
+        Objective: Remove embedded commas
+
+
+        Pattern: 
+        (?m)("[^",]+),([^"]+")
+        
+        Replacement pattern:
+        $1$2
+
+        Input Text:
+        "J7, L 00","N","527950234"
+        "K7, L 00","N","527950234"
+        "L7, L 00","N","527950234"  
+
+        Output Text:
+        "J7 L 00","N","527950234"
+        "K7 L 00","N","527950234"
+        "L7 L 00","N","527950234" 
+
         */
 
         [TestMethod]
