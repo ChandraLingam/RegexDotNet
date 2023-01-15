@@ -1,9 +1,25 @@
-# C# .NET Regular Expression (regex) Projects and Solutions
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+# Regular Expressions (Regex) with C# .NET - Easy and Fast!
 ## To enroll:
 https://www.udemy.com/course/learning-regular-expression-with-net/?referralCode=12BCE3C5C19156C78828
 
 ## Purpose
-Hi, and welcome to the .NET Regular Expressions Course!
+Regular Expression (regex) is a pattern detection language – they are typically used to search patterns in text, extract matching values, and data validation.
+
+Regex is supported in many programming languages, including Python, C#, JavaScript, Perl, SQL, and more.
+
+Regular Expressions (Regex) with C# .NET course is designed to provide hands-on experience with regular expressions through various exercises and projects
+
+Stop googling and master regular expression with my simple and straightforward course
 
 In just a couple of hours, you will gain precise and relevant information that you can immediately apply to your projects
 
