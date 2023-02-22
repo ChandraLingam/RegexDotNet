@@ -12,7 +12,7 @@ namespace TestProject
     {
         public string logFileName = string.Empty;
         public Dictionary<string,string> directory = new Dictionary<string, string> ();
-        public List<List<string>> metrics = new List<List<string>>();
+        public List<Dictionary<string,string>> metrics = new List<Dictionary<string, string>>();
         public bool error = false;
         public string errorMessage = string.Empty;
     }
@@ -51,8 +51,6 @@ namespace TestProject
             // Remove Group 0
             metricGroupNames.RemoveAt(0);
 
-            logMetrics.metrics.Add(metricGroupNames);
-
             using (StreamReader rdr = new StreamReader(file))
             {
                 while (!rdr.EndOfStream)
@@ -79,11 +77,12 @@ namespace TestProject
 
                     if (match.Success)
                     {
-                        List<string> metricsRow = new List<string>();
+                        Dictionary<string,string> metricsRow = new Dictionary<string, string> ();
 
                         foreach (string name in metricGroupNames)
                         {
-                            metricsRow.Add(match.Groups[name].Value);
+                            // Console.WriteLine($"{name}, {match.Groups[name].Value}");
+                            metricsRow[name] = match.Groups[name].Value;
                         }
 
                         logMetrics.metrics.Add(metricsRow);
